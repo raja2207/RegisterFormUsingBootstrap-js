@@ -70,3 +70,10 @@ function Loginpassword(){
         window.alert("invalid Password Please Enter Correct Password")
     }
 }
+
+
+
+document.getElementById("circuit").addEventListener("click", function(event){
+    event.preventDefault()
+    window.alert("success fully updated");
+  });

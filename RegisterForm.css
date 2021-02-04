@@ -10,10 +10,10 @@ body{
 .firstDiv{
     position: relative;
     margin-left: 15vw;
-    margin-top: 10vh;  
+    margin-top: 7vh;  
     padding-top: 0vh;  
     width: 70vw;
-    height: 83vh;
+    height: 85vh;
     opacity: 0.8;
     background-image: url(./images.jfif);
     background-repeat: no-repeat;
@@ -22,11 +22,10 @@ body{
 }
 .secondDiv{
     opacity: 1;
-    position: relative;
-    
+    position: relative;    
     width: 60vw;
     height: 75vh; 
-    margin: auto;   
+      
     
 }
 .bodyHomePage{
@@ -41,6 +40,25 @@ body{
     height: 40vh;
     margin-top: 20vh;
     margin-left: 23vw;
+}
+#emailIcon{
+    position: absolute;
+    margin-top: 7px;
+    right: 15px;
+    font-size: x-large;
+}
+#passwordIcon{
+    position: absolute;
+    margin-top: 7px;
+    left: 26.5vw;
+    font-size:x-large;
+}
+#passwordcIcon{
+    position: absolute;
+    margin-top: 7px;
+
+    right: 15px;
+    font-size: x-large;
 }
 
 
@@ -57,12 +75,17 @@ body{
     background-image: url();
     
 }
-.secondDiv{
-
+#passwordIcon{
+    position: absolute;
+    left: 49vw;
+    
+    font-size:x-large;
 }
+
 body{
   
-   height: 190vh; 
+   height: 180vh; 
+   background-size: cover;
 }
 h3{
     color: white;
@@ -70,3 +93,11 @@ h3{
 
 
 }
+
+@media (max-width: 575px){
+    .lab{
+      display: contents;
+      font-size: calc(1.0rem + .2vw)!important;
+    }
+}
+ 
